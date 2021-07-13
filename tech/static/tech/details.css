@@ -1,0 +1,314 @@
+
+.showcase{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    
+}
+
+/* .details{
+    margin-right: 2rem;
+} */
+
+
+.post-data{
+    float: left;
+    margin-right:50px;
+    width:600px;
+}
+
+.img-container{
+    width: 600px;
+    height:300px;
+    overflow:hidden;
+
+}
+
+.img-logo{
+    width:50px;
+    height:50px;
+}
+
+.logo{
+    float: left              ;    
+}
+
+.details{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rate-text{
+    font-size: 1.3rem;
+    width:300px;
+}
+
+
+.post-cover{
+    align-items: center;
+    position: relative;
+    /* margin-left:120px;
+    padding:1rem 1rem; */
+    width:600px;
+    height:400px;
+    object-fit: cover;
+    z-index:-1;
+    padding-bottom: 120px;
+}
+
+.title{
+    font-size:3rem;
+}
+
+.post-news{
+    width: 750px;
+}
+
+
+
+.post-lists{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding:1rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+.post{
+    margin:1rem 2rem;
+    padding:0rem 1rem 1rem;
+    text-align: left;
+    position: relative;
+    width:300px;
+    height:20vh;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+.post:hover{
+    cursor:pointer;
+}
+
+h1.text1{
+    position:relative;
+    font-weight:1000;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  p.post-news1{
+      color:rgb(129, 129, 129);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      line-height: 16px;     /* fallback */
+      max-height: 32px;      /* fallback */
+      -webkit-line-clamp: 2; /* number of lines to show */
+      -webkit-box-orient: vertical;
+  }
+  
+  .icon{
+    font-size:3rem;
+  }
+  
+  
+  .js{
+    color:yellow;
+  }
+  
+  .python{
+      color:grey;
+     color: linear-gradient(90deg, rgba(0,4,36,1) 0%, rgba(9,121,121,1) 35%, rgba(0,212,255,1) 100%);
+
+
+  }
+  .ml{
+    color: rgb(96, 104, 161);
+    color: linear-gradient(90deg, rgba(0,4,36,1) 0%, rgba(9,121,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  
+  .java{
+      color:rgb(128, 51, 0);
+  }
+  
+  .hacking{
+      color:red;
+  }
+
+
+.side-bar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+    position: relative;
+    float: left;
+    margin-top:50px;
+    height:700px;
+    width:3px;
+    background-color: rgb(88, 87, 87);
+}
+  h3.text{
+      margin:0 0 0 7rem;
+      font-size: 1.2rem; 
+      margin-top: 1rem;   
+  }
+
+  .details {
+    margin:15px 0 0 0;
+    padding: 100px 0 0 0;
+    width:250px;
+    height:250px;  
+  }
+fieldset{
+    margin-right:120px;
+    text-align: center;
+    align-items: center;
+    width:300px;
+}
+
+
+  .title1 {
+    color: white;
+    top: 50;
+    margin-left: 2rem;
+    z-index: 2;
+    font-size: 50px;
+    
+    /* margin-bottom: 13px; */
+    position: relative;
+    /* line-height: 1.0; */
+  }
+  .title1 span {
+    position: absolute;
+    top: 3px;
+    margin-left: 12px;
+    background: #C4AF3D;
+    border-radius: 5px;
+    color: #544C21;
+    font-size: 14px;
+    padding: 0px 4px;
+  }
+  .details .title2 {
+    color: #C7C1BA;
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+ 
+  .details .likes:before {
+    content: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/icon_like.png");
+    position: relative;
+    top: 2px;
+    padding-right: 7px;
+  }
+  
+  .description {
+    bottom: 0px;
+    height: 200px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B1B0AC;
+  }
+  
+  .column1 {
+    padding-left: 50px;
+    padding-top: 120px;
+    width: 220px;
+    float: left;
+    text-align: center;
+  }
+  
+  .tag {
+    background: white;
+    border-radius: 10px;
+    padding: 3px 8px;
+    font-size: 14px;
+    margin-right: 4px;
+    line-height: 35px;
+    cursor: pointer;
+  }
+  
+  .tag:hover {
+    background: #ddd;
+  }
+  
+  .column2 {
+    padding-left: 41px;
+    padding-top: 30px;
+    margin-left: 20px;
+    width: 480px;
+    float: left;
+  }
+  
+  
+ label {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /****** Style Star Rating Widget *****/
+.rating {
+    border: none;
+    float: left;
+  }
+  
+.rating > input {
+    display: none;
+  }
+  
+.rating > label:before {
+    margin: 5px;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+    font-weight: 900;
+
+  }
+  
+  .rating > .half:before {
+    content: "\f089";
+    position: absolute;
+    font-weight: 900;
+
+  }
+  
+  .rating > label {
+    color: #ddd;
+    float: right;
+  }
+  
+  /***** CSS Magic to Highlight Stars on Hover *****/
+  .rating > input:checked ~ label,
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #FFD700;
+  }
+  
+  /* hover previous stars in list */
+  .rating > input:checked + label:hover,
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label,
+  .rating > input:checked ~ label:hover ~ label {
+    color: #FFED85;
+  }
+
+  

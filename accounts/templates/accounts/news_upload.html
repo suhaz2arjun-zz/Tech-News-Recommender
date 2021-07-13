@@ -1,0 +1,16 @@
+{%load crispy_forms_tags%}
+{% block content %}
+    <div class="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <legend id="legend-txt" class="border-bottom mb-4">Upload Post Here</legend>
+            <fieldset class="form-group">
+                <!-- <legend id="legend-txt" class="border-bottom mb-4">Register Here</legend> -->
+                {{ n_form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button id="form-submit" class="btn btn-outline-info" type="submit">Upload</button>
+            </div>
+        </form>
+    </div>
+{% endblock content %}

@@ -1,0 +1,190 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css"href="{% static 'tech/tech.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>posts</title>
+</head>
+<body>
+  <div class="navbar">
+      <div class="container flex">
+        <div class="logos flex">
+          <img class="img-logo" src="{%static 'tech/logo.png'%}" alt="">
+        </div>
+        <div class="nav-items">
+          <nav>
+            <ul>
+              <li><a href="{% url 'news_home' %}">Home</a></li>
+              <li><a href="{% url 'accounts:profile'%}">Profile</a></li>
+              <li><a href="{% url 'accounts:logout' %}">Logout</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <section class="home">
+        <aside class="side-section">
+            <div class="side-items">
+              <h3>Popular Tags</h3>
+                  <p>#js</p>
+                  <p>#python</p>
+                  <p>#ml</p>
+            </div>
+        </aside>
+        <main>
+        
+          <div class="content">
+            <div class="post-section">
+              {%if JS|length > 0 %}
+                  <h3 class="topic">TOP JAVASCRIPT POSTS</h3>
+                    <ul class="post-lists">
+                    
+                      {% for q in JS %}
+                                  <li class="post">
+                                  <a class="post-title" href="{% url 'tech:detail' %}?title={{ q.news_title }}">                              
+                                    <h1 class="text">{{ q.news_title}}</h1>
+                                  </a>
+                                    <i class="fab fa-js icon js"></i>
+                                    <p class="post-news">{{ q.news_plot }}</p>
+                                  </li>
+                              {% endfor %}
+                        <!-- <small class="view-post">Open it</small>       -->
+                    </ul>
+              {% endif %}
+              {%if ml|length > 0 %}
+                    <h3 class="topic">TOP ML POSTS</h3>
+                      <ul class="post-lists">
+                        {% for q in ml%}
+                          
+                                    <li class="post">
+                                    <a class="post-title" href="{% url 'tech:detail' %}?title={{ q.news_title }}">                              
+                                      <h1 class="text">{{ q.news_title}}</h1>
+                                    </a>
+                                      <i class="fas fa-robot icon ml"></i>                                
+                                      <p class="post-news">{{ q.news_plot }}</p>
+                                    
+                                    </li>
+                                {% endfor %}
+                      </ul>
+              {%endif%}
+                      {%if python|length > 0 %}
+                      <h3 class="topic">TOP PYTHON POSTS</h3>
+                        <ul class="post-lists">
+                          {% for q in python%}
+                            
+                                      <li class="post">
+                                      <a class="post-title" href="{% url 'tech:detail' %}?title={{ q.news_title }}">                              
+                                        <h1 class="text">{{ q.news_title}}</h1>
+                                      </a>
+                                      <i class="fab fa-python python icon python"></i>                                  
+                                      <p class="post-news">{{ q.news_plot }}</p>
+                                      </li>
+                                  {% endfor %}
+                        </ul>
+                        {%endif%}
+                        {%if java|length > 0 %}
+                        <h3 class="topic">TOP JAVA POSTS</h3>
+                        <ul class="post-lists">
+                          {% for q in java%}
+                            
+                                      <li class="post">
+                                      <a class="post-title" href="{% url 'tech:detail' %}?title={{ q.news_title }}">                              
+                                        <h1 class="text">{{ q.news_title}}</h1>
+                                      </a>
+                                      <i class="fab fa-java icon java"></i>                                
+                                      <p class="post-news">{{ q.news_plot }}</p>
+                                      </li>
+                                  {% endfor %}
+                        </ul>
+                        {%endif%}
+                        {%if hacking|length > 0 %}
+                        <h3 class="topic">TOP HACKING POSTS</h3>
+                        <ul class="post-lists">
+                          {% for q in hacking%}
+                            
+                                      <li class="post">
+                                      <a class="post-title" href="{% url 'tech:detail' %}?title={{ q.news_title }}">                              
+                                        <h1 class="text">{{ q.news_title}}</h1>
+                                      </a>
+                                      <i class="fas fa-dragon icon hacking"></i>                                
+                                      <p class="post-news">{{ q.news_plot }}</p>
+                                      </li>
+                                  {% endfor %}
+                        </ul>
+                        {%endif%}
+            </div>
+            <div class="recommended">
+              <h3 class="topic">You might like</h3>
+              <ul class="post-lists rec">
+                {% for q in personalized%}
+                <li class="post">
+                  <a class="post-title" href="{% url 'tech:detail' %}?title={{ q.news_title }}">                              
+                    <h1 class="text">{{ q.news_title}}</h1>
+                  </a>
+                {% if q.news_genre == 'python'%}
+                <i class="fab fa-python python icon python"></i>
+                {% elif q.news_genre == 'JS'%}
+                <i class="fab fa-js icon js"></i>
+                {% elif q.news_genre == 'ml' %}
+                <i class="fas fa-robot icon ml"></i>  
+                {% elif q.news_genre == 'java' %}    
+                <i class="fab fa-java icon java"></i>                                
+                {% elif q.news_genre == 'hacking' %}
+                <i class="fas fa-dragon icon hacking"></i>                                                          
+                {%endif%}                                       
+                <p class="post-news">{{ q.news_plot }}</p>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </main>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

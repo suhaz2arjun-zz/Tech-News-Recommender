@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css"href="{% static 'tech/main.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>posts</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="container flex">
+      <h1 class="logo">Tech News</h1>
+      <nav>
+        <ul>
+          <li><a href="{% url 'news_home' %}">Home</a></li>
+          <li><a href="{% url 'tech:about'%}">About</a></li>
+          <li><a href="{% url 'accounts:logout' %}">Logout</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+    <center>
+  <section>
+      <h1 class="text">Personalized Recommendation </h1>
+      <small>using Machine Learning</small>
+  </section>
+</center>
+</body>
+</html>

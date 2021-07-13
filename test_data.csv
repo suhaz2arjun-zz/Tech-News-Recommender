@@ -1,0 +1,51 @@
+news_id,news_title,news_genre,news_plot,news_link,news_rating
+b1,python in iot,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,4.5
+b2,machine learning in web,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4.2
+b3,react using javascript,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,4.5
+b4,java for android app,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,4.2
+b5,web scraping using ML,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4.4
+b6,ethical hacking in social media,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,4.3
+b7,Numpy in python,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,4.4
+b8,pandas in python,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,4
+b9,beautifulsoup in python,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,5
+b10,python in realtime,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,5
+b11,sklearn for python,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,4
+b12,surprise in python,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,4.1
+b13,data mining in python ,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,3
+b14,rake_nltk in python,python,Ooooooops! No arical found..,https://st3.depositphotos.com/1000193/19143/v/1600/depositphotos_191434688-stock-illustration-python-icon-isolated-on-background.jpg,3.8
+b15,libraries for data analysis,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,5
+b16,basic models in ml,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,5
+b17,ML questions in placement drive,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4.5
+b18,KNN algorithm,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4
+b19,CNN algorithm,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4
+b20,collaborative filtering ,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4.3
+b21,super and unsuper,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,5
+b22,robotics ,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4.4
+b23,AI and ML,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4.6
+b24,Different plots,ml,Ooooooops! No arical found..,https://st3.depositphotos.com/1008648/18905/i/1600/depositphotos_189058788-stock-photo-cyborg-head-artificial-intelligence-3d.jpg,4
+b25,javascript for placement drive,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,4
+b26,ML using javascript,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,5
+b27,foreach in javascript,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,5
+b28,steps to lear javascript,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,4.3
+b29,difference between react.js and react native,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,4.7
+b30,Use of Angular JS,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,4.8
+b31,Node JS and Angular JS,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,4
+b32,Tensorflow setup,javascript,Ooooooops! No arical found..,https://st.depositphotos.com/1796420/4113/v/950/depositphotos_41138625-stock-illustration-vector-illustration-of-dark-blue.jpg,3
+b33,Basic questions on java,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,5
+b34,JAVA or Python,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,4
+b35,Why Java?,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,4.6
+b36,ML using java ,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,4.5
+b37,Java in realtime application,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,4.6
+b38,pass by value and pass by reference,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,4
+b39,collectors in java,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,4
+b40,JSP usage,java ,Ooooooops! No arical found..,https://st.depositphotos.com/1943535/1830/i/950/depositphotos_18305733-stock-photo-java-phone.jpg,5
+b41,White Hat and Black Hat,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,5
+b42,Kali linux or parrot OS,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,5
+b43,Tor browser usage ,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,4.5
+b44,Cyber crime ,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,4
+b45,Phishing attack,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,4.2
+b46,BroutForce attack,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,3.8
+b47,Why India baned pubG and Tiktok,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,3
+b48,How to secure our Data,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,4
+b49,Why web scraping is illigal,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,2.4
+b50,Easy way to learn ethical hacking,hacking,Ooooooops! No arical found..,https://st3.depositphotos.com/13194036/34253/i/1600/depositphotos_342534672-stock-photo-selective-focus-hacker-hood-pointing.jpg,3

@@ -1,0 +1,30 @@
+{%load static%}
+<link rel="stylesheet" type="text/css"href="{% static 'accounts/signup.css' %}">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+{%load crispy_forms_tags%}
+
+{% block content %}
+<div class="section">
+    <div class="greetings">
+        <h1>W</h1>
+        <h2 class="greet">elcome,</h2>
+        <h2 class="account-heading">{{ user.username }}</h2>
+    </div>
+    <div class="content-section">
+       
+
+        <form method="POST">
+            {% csrf_token %}
+            <legend id="legend-txt" class="border-bottom mb-4">Choose your topics</legend>
+            <fieldset class="form-group">
+                <!-- <legend id="legend-txt" class="border-bottom mb-4">Register Here</legend> -->
+                {{pr_form|crispy}}
+            </fieldset>
+            <div class="form-group">
+                <button id="form-submit" class="btn btn-outline-info" type="submit">Add</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock content %}

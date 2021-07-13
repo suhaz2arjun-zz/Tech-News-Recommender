@@ -1,0 +1,55 @@
+username,news_title,rating
+surya,Python in IOT,4.5
+surya,Machine Learning in Web,4.2
+surya,React using Javascript,4.5
+surya,Java for android app,4.2
+surya,Web scraping using ML,4.4
+surya,Ethical hacking in social media,4.3
+surya,Numpy in python,4.4
+surya,Pandas in Python,4
+surya,Beautifulsoup in Python,5
+surya,Python in realtime,5
+surya,sklearn for Python,4.5
+surya,Surprise in Python,4.2
+suhas,data mining in python ,4.5
+suhas,rake_nltk in python,4.2
+suhas,Libraries for Data Analysis,4.4
+suhas,Python in IOT,4.3
+suhas,Machine Learning in Web,4.4
+suhas,React using Javascript,4
+suhas,Java for android app,5
+suhas,Web scraping using ML,5
+suhas,Ethical hacking in social media,4.5
+suhas,Numpy in python,4.2
+sukshith,Pandas in Python,4.5
+sukshith,Beautifulsoup in Python,4.2
+sukshith,Python in realtime,4.4
+sukshith,sklearn for Python,4.3
+sukshith,Surprise in Python,4.4
+sukshith,data mining in python ,4
+sukshith,rake_nltk in python,5
+sukshith,Libraries for Data Analysis,5
+sukshith,KNN algorithm,4.4
+sukshith,CNN algorithm,5
+suryakumar,Python in realtime,4
+suryakumar,Numpy in python,3.5
+suryakumar,Machine Learning in Web,2
+suhasarjun,Python in IOT,1
+suhasarjun,Tensorflow setup,5
+suhasarjun,Java in realtime application,2.5
+suryakumar,Django in Python,4
+suhasarjun,Pandas in Python,2.5
+suhasarjun,rake_nltk in python,1
+suhasarjun,Django in Python,4.5
+suhasarjun,React using Javascript,3.5
+suryakumar,Difference between React.js and React native,5
+suryakumar,React using Javascript,4
+suryakumar,Python in IOT,3
+suryakumar,forEach( ) in Javascript,4.5
+suhasarjun,Machine Learning in Web,3
+suhaz_arjun,forEach( ) in Javascript,5
+elonmusk,Machine Learning in Web,3
+elonmusk,Web scraping using ML,3.5
+docky,React using Javascript,2.5
+shreedhar24,React using Javascript,4.5
+suhaz,React using Javascript,3
